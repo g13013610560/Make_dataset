@@ -47,8 +47,8 @@ def get_frame_from_video(read_path, save_path, video_name, interval):
 
 if __name__ == '__main__':
     # 视频文件名字
-    path = '/data/data1/00DeepFakeDatasets/02FF++/videos/FaceShifter/raw/val/'
-    save_path = '/data/data1/00DeepFakeDatasets/02FF++/ff++/FaceShifter/raw/val/'
+    path = 'E:/frame test/videos/'
+    save_path = 'E:/frame test/frames/'
     interval = 5
 
     files = os.listdir(path)
